@@ -7,7 +7,7 @@ int main(){
     cin>>number;
     cout<<endl;
     bool flag = 0;
-    for(int i = 2;i<sqrt(number);i++){
+    for(int i = 2;i<number;i++){
         if(number%i == 0){
             cout<<"It's a non-prime number :(";
             flag = 1;
